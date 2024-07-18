@@ -6,3 +6,6 @@ The receiver leverages Wi-Fi to upload vital data to the ThingSpeak cloud, enabl
 
 The required headers are: Wire.h, Adafruit_BMP280.h, esp-now.h, WiFi.h, MAX30105.h, heartRate.h, I2Cdev.h, MPU6050.h, ThingSpeak.h
 
+The source code for both Transmitter and Receiver are provided.
+The source code to obtain I2C address of all I2C device connected is also provided as "I2C_ADDR_FINDER.ino".
+The source code to obtain MAC address of a ESP-32 module connected is also provided as "ESP_32_MAC_ADDR_FINDER.ino".
