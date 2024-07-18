@@ -1,3 +1,6 @@
+// Github: https://github.com/pavan-vl/Pilot-Vitals-Monitoring-Jacket
+// LinkedIn: https://www.linkedin.com/in/pavan-v-l-2b1986266/
+
 #include <Wire.h> // For I2C Communication
 
 void setup()
