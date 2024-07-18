@@ -1,6 +1,6 @@
 // Designed by Pavan VL
 // Github: https://github.com/pavan-vl/Pilot-Vitals-Monitoring-Jacket
-//LinkedIn: https://www.linkedin.com/in/pavan-v-l-2b1986266/
+// LinkedIn: https://www.linkedin.com/in/pavan-v-l-2b1986266/
 
 /* Variable List from Sensors
 max30102 - beatsPerMinute(Float), beatsavg(Int)
