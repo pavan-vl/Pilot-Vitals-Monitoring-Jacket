@@ -1,2 +1,6 @@
 # Pilot-Vitals-Monitoring-Jacket
-Developed a flight jacket that monitors pilots' vitals including heart rate, external pressure and temperature, altitude, acceleration and gyroscopic values. Data is transmitted to the ThingSpeak cloud via ESP-NOW communication protocol between the transmitter and receiver.
+Developed a flight jacket that monitors pilots' vitals including heart rate, external pressure and temperature, altitude, acceleration and gyroscopic values and smoke detection. Data is transmitted to the ThingSpeak cloud via ESP-NOW communication protocol between the transmitter and receiver.
+This project utilizes ESP-32 Dev modules as microcontrollers at both the transmitting and receiving ends. 
+It employs the MAX30102 sensor for monitoring heart rate and blood oxygen levels, the MPU6050 for acceleration and gyroscopic data, the BMP280 for external pressure and temperature, altitude measurements and lastly the MQ-2 gas sensor to detect smoke. Communication between the transmitter and receiver ESP-32 modules is established using the ESP-NOW wireless protocol operating in the 2.4 GHz band. 
+The receiver leverages Wi-Fi to upload vital data to the ThingSpeak cloud, enabling data logging over time.
+
