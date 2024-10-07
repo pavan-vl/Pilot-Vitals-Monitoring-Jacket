@@ -38,10 +38,6 @@ float beatsPerMinute;
 int beatAvg;
 
 // BMP280
-#define BMP_SCK  13
-#define BMP_MISO 12
-#define BMP_MOSI 11
-#define BMP_CS   10
 #define dr 0x76 // Obtained I2C address of BMP280 module 
 
 Adafruit_BMP280 bmp; // Pressure sensor object
